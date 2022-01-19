@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mCounter++;
-                txv.setText(Integer.toString(mCounter));
+                txv.setText(String.format("%04d",mCounter));
 
             }
         });
