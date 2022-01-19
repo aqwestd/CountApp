@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private int mCounter = 0000;
+    private int mCounter = 0;
     Button btn;
     TextView txv;
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn = (Button)findViewById(R.id.button);
-        txv = (TextView)findViewById(R.id.text);
+        txv = (TextView)findViewById(R.id.tx);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
